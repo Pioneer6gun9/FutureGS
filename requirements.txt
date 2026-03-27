@@ -1,0 +1,16 @@
+submodules/depth-diff-gaussian-rasterization
+submodules/simple-knn
+torch==1.13.1+cu116
+torchvision==0.14.1+cu116
+numpy>=1.20.0
+scipy
+scikit-learn
+opencv-python
+pillow
+plyfile==0.8.1
+tqdm
+imageio==2.27.0
+imageio-ffmpeg
+matplotlib
+dearpygui
+lpips
