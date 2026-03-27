@@ -32,9 +32,9 @@ pip install submodules/simple-knn
 
 In our paper, we use two categories of datasets:
 
-- **Synthetic datasets** from [D-NeRF](https://github.com/alcoholziyang/dnerf): `bouncingballs`, `hellwarrior`, `hook`, `jumpingjacks`, `lego`, `mutant`, `standup`, `trex`
+- **Synthetic datasets** from [D-NeRF](https://www.albertpumarola.com/research/D-NeRF/index.html): `bouncingballs`, `hellwarrior`, `hook`, `jumpingjacks`, `lego`, `mutant`, `standup`, `trex`
 
-- **Real-world datasets** from [NeRF-DS](https://github.com/activevisionlab/nerfmm) and [Hyper-NeRF](https://github.com/google/hypernerf): including `as`, `basin`, `aleks-teapot`, `espresso`, etc.
+- **Real-world datasets** from [NeRF-DS](https://jokeryan.github.io/projects/nerf-ds/) and [Hyper-NeRF](https://hypernerf.github.io/): including `as`, `basin`, `aleks-teapot`, `espresso`, etc.
 
 We organize the datasets as follows:
 
