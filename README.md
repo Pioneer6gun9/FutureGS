@@ -70,13 +70,19 @@ python train.py \
   --output_frame 1
 ```
 
-Or use the provided script:
+Or use the provided scripts:
 ```bash
-# Train single dataset
-./run_all.sh bouncingballs 10 1
+# D-NeRF datasets (synthetic)
+./scripts/dnerf.sh bouncingballs 10 1
+./scripts/dnerf.sh all 10 1
 
-# Train all datasets
-./run_all.sh all 10 1
+# NeRF-DS datasets (real-world)
+./scripts/nerfds.sh as_novel_view 10 1
+./scripts/nerfds.sh all 10 1
+
+# Hyper-NeRF datasets (real-world)
+./scripts/hypernerf.sh aleks-teapot 10 1
+./scripts/hypernerf.sh all 10 1
 ```
 
 ### 5. Render and evaluate
